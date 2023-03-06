@@ -1,0 +1,50 @@
+/*attribute selectors*/
+/*attribute*/
+h2[class=attri]{
+	background-color:red;
+	color:white;
+	width:30%;
+	
+}
+h2[class=att1]{
+	background-color:green;
+	color:pink;
+	width:40%
+	
+}
+h2[class~=tilt]{
+	background-color:pink;
+	color:brown;
+	width:30%
+	
+}
+h2[class|=pipe]{
+	background-color:yellow;
+	color:black;
+	width:50%
+	
+}
+h2[class^=carat]{
+	background-color:yellow;
+	color:red;
+	width:30%
+}
+h2[class$=dollar]{
+	background-color:blue;
+	color:pink;
+	width:500px;
+}
+h2[class*=to]{
+	background-color:gray;
+	color:orange;
+	width:750px;
+}
+h1{
+	background-color:orange;
+	color:blue;
+	font-size:30px;
+	width:800px;
+	border:5px doubled black;
+}
+
+
